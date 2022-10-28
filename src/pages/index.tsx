@@ -25,7 +25,7 @@ const Home: NextPage = () => {
     if (!username) {
       router.push("/signup");
     }
-  }, []);
+  }, [username]);
 
   return (
     <div className="flex flex-col items-center justify-center pt-4 grow bg-orange-50">
