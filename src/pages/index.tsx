@@ -32,8 +32,8 @@ const Home: NextPage = () => {
       {!username && (
         <Alert type="warning" extraClasses="mb-12">
           Please <Link href="/login">log in</Link> or{" "}
-          <Link href="/signup">create an account</Link> to use Super
-          Productivity Timer
+          <Link href="/signup">create an account</Link> to use
+          Productivity Tracker
         </Alert>
       )}
 
